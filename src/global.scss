@@ -1,0 +1,35 @@
+.cat-facts,
+.favourite-facts {
+  width: 48%;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+ul {
+  padding: 0;
+  li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-weight: 500;
+    cursor:pointer;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+.favourite-facts{
+  ul{
+    padding-top: 38px;
+    @media screen and (max-width: 767px) {
+      padding-top: 0px;
+    }
+  }
+}
+p {
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2rem;
+}
